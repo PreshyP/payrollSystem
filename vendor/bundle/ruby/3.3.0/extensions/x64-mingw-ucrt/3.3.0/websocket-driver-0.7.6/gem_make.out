@@ -1,0 +1,19 @@
+current directory: C:/Ruby33-x64/payroll_system/vendor/bundle/ruby/3.3.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+C:/Ruby33-x64/bin/ruby.exe extconf.rb
+creating Makefile
+
+current directory: C:/Ruby33-x64/payroll_system/vendor/bundle/ruby/3.3.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240713-27456-i118qh sitelibdir\=./.gem.20240713-27456-i118qh clean
+
+current directory: C:/Ruby33-x64/payroll_system/vendor/bundle/ruby/3.3.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240713-27456-i118qh sitelibdir\=./.gem.20240713-27456-i118qh
+generating websocket_mask-x64-mingw-ucrt.def
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: C:/Ruby33-x64/payroll_system/vendor/bundle/ruby/3.3.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240713-27456-i118qh sitelibdir\=./.gem.20240713-27456-i118qh install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20240713-27456-i118qh
+
+current directory: C:/Ruby33-x64/payroll_system/vendor/bundle/ruby/3.3.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240713-27456-i118qh sitelibdir\=./.gem.20240713-27456-i118qh clean

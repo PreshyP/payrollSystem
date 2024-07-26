@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Staffs Index</title>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+  <%= stylesheet_link_tag 'application', media: 'all' %>
+</head>
+<body>
+  <div class="container">
+    <h1>Staff List</h1>
+
+    <!-- Only include the correct link -->
+   
+    <table class="table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Last Name</th>
+          <th>Job Title</th>
+          <th>Total Hours</th>
+          <th>Total Days Worked</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @staffs.each do |staff| %>
+          <tr>
+            <td><%= staff.staff_id %></td>
+            <td><%= staff.name %></td>
+            <td><%= staff.lastname %></td>
+            <td><%= staff.job_title %></td>
+            <td><%= staff.total_hours %></td>
+            <td><%= staff.total_days_worked %></td>
+            <td>
+              <%= link_to 'New Staff', new_staff_path, class: 'btn btn-primary' %>
+
+              <%= link_to 'Show', staff_path(staff), class: 'btn btn-primary' %>
+              <%= link_to 'Edit', edit_staff_path(staff), class: 'btn btn-secondary' %>
+              <%= link_to 'Destroy', staff_path(staff), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger' %>
+              <%= link_to 'Add Salary Deduction', new_salary_deduction_path(staff_id: staff.id), class: 'btn btn-primary' %>
+            </td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

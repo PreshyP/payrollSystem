@@ -1,0 +1,19 @@
+current directory: C:/Ruby32-x64/payroll_system/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.1/ext/stringio
+C:/Ruby33-x64/bin/ruby.exe extconf.rb
+creating Makefile
+
+current directory: C:/Ruby32-x64/payroll_system/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.1/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20240725-14704-g5u064 sitelibdir\=./.gem.20240725-14704-g5u064 clean
+
+current directory: C:/Ruby32-x64/payroll_system/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.1/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20240725-14704-g5u064 sitelibdir\=./.gem.20240725-14704-g5u064
+generating stringio-x64-mingw-ucrt.def
+compiling stringio.c
+linking shared-object stringio.so
+
+current directory: C:/Ruby32-x64/payroll_system/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.1/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20240725-14704-g5u064 sitelibdir\=./.gem.20240725-14704-g5u064 install
+/usr/bin/install -c -m 0755 stringio.so ./.gem.20240725-14704-g5u064
+
+current directory: C:/Ruby32-x64/payroll_system/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.1/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20240725-14704-g5u064 sitelibdir\=./.gem.20240725-14704-g5u064 clean

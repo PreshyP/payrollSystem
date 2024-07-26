@@ -1,0 +1,20 @@
+current directory: C:/Ruby33-x64/payroll_system/vendor/bundle/ruby/3.3.0/gems/debug-1.9.2/ext/debug
+C:/Ruby33-x64/bin/ruby.exe extconf.rb
+creating Makefile
+
+current directory: C:/Ruby33-x64/payroll_system/vendor/bundle/ruby/3.3.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240713-27456-q6r93h sitelibdir\=./.gem.20240713-27456-q6r93h clean
+
+current directory: C:/Ruby33-x64/payroll_system/vendor/bundle/ruby/3.3.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240713-27456-q6r93h sitelibdir\=./.gem.20240713-27456-q6r93h
+generating debug-x64-mingw-ucrt.def
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: C:/Ruby33-x64/payroll_system/vendor/bundle/ruby/3.3.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240713-27456-q6r93h sitelibdir\=./.gem.20240713-27456-q6r93h install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20240713-27456-q6r93h/debug
+
+current directory: C:/Ruby33-x64/payroll_system/vendor/bundle/ruby/3.3.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240713-27456-q6r93h sitelibdir\=./.gem.20240713-27456-q6r93h clean
